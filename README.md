@@ -103,6 +103,10 @@ AI Whisperers is an AI-powered automation consultancy helping enterprises harnes
 | **Profile** | Company profile & role details | [`Profile.md`](./Company/Staff/02-Kyrian-Weiss-van-der-Pol/Profile.md) |
 
 **Quick Info:**
+| **1-Page Resume** | Professional summary | [`Resume-1Page.md`](./Company/Staff/02-Kyrian-Weiss-van-der-Pol/Resume-1Page.md) |
+| **Profile** | Company profile & role details | [`Profile.md`](./Company/Staff/02-Kyrian-Weiss-van-der-Pol/Profile.md) |
+
+**Quick Info:**
 - 📧 kyrianweiss.vdp@gmail.com
 - 🎓 18 years old, University student (2026)
 - 🏆 "Wizard material" technical talent
@@ -115,6 +119,10 @@ AI Whisperers is an AI-powered automation consultancy helping enterprises harnes
 | Document | Description | Link |
 |----------|-------------|------|
 | **Full CV** | Complete curriculum vitae | [`CV.md`](./Company/Staff/03-Jonathan-Verdun/CV.md) |
+| **1-Page Resume** | Professional summary | [`Resume-1Page.md`](./Company/Staff/03-Jonathan-Verdun/Resume-1Page.md) |
+| **Profile** | Company profile & role details | [`Profile.md`](./Company/Staff/03-Jonathan-Verdun/Profile.md) |
+
+**Quick Info:**
 | **1-Page Resume** | Professional summary | [`Resume-1Page.md`](./Company/Staff/03-Jonathan-Verdun/Resume-1Page.md) |
 | **Profile** | Company profile & role details | [`Profile.md`](./Company/Staff/03-Jonathan-Verdun/Profile.md) |
 

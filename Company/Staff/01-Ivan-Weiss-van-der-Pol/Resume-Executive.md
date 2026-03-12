@@ -1,23 +1,23 @@
 # IVAN WEISS VAN DER POL
 ## Founder & CEO | Data Engineer | Automation Architect
 
-📍 Wichita, Kansas | 📱 +595 981 324 569 | ✉️ weissvanderpol.ivan@gmail.com  
+📍 San Lorenzo, Paraguay | 📱 +595 981 324 569 | ✉️ weissvanderpol.ivan@gmail.com  
 🔗 linkedin.com/in/ivanweissvanderpol | 💻 github.com/IvanWeissVanDerPol
 
 ---
 
 ## EXECUTIVE SUMMARY
 
-Visionary technical leader and founder of AI Whisperers, bringing 6+ years of enterprise experience in data engineering, automation architecture, and quality assurance. NASA Galactic Problem Solver (2023) with proven track record delivering FDA-compliant healthcare technology and municipal government solutions. Multilingual executive (Spanish/English/Dutch) with international project experience across USA, Bulgaria, and Paraguay.
+Visionary technical leader and founder of AI Whisperers, bringing 6+ years of enterprise experience in data engineering, automation architecture, and quality assurance. NASA Galactic Problem Solver (2023) with proven track record delivering FDA-compliant healthcare technology and enterprise data solutions. Multilingual executive (Spanish/English/Dutch) with international project experience across USA, Bulgaria, and Paraguay.
 
-**Core Expertise:** AI Strategy • Workflow Automation • Data Engineering • Technical Leadership • Client Relations
+**Core Expertise:** Data Engineering • AI Strategy • Workflow Automation • ETL Pipelines • CI/CD Architecture • Technical Leadership
 
 ---
 
 ## PROFESSIONAL EXPERIENCE
 
 ### **AI WHISPERERS** — Founder & CEO
-*November 2025 – Present | Remote*
+*November 2025 – Present | San Lorenzo, Paraguay (Remote)*
 
 - Founded and scaled AI-powered automation consultancy serving enterprise clients internationally
 - Architected company technical vision and service offerings across AI integration, automation, and data engineering
@@ -29,15 +29,28 @@ Visionary technical leader and founder of AI Whisperers, bringing 6+ years of en
 
 ---
 
-### **STOIC FINCH** — Technical Lead
-*October 2024 – November 2025 | Remote*
+### **STOIC FINCH** — Technical Lead / Data Engineer
+*October 2024 – November 2025 | San Lorenzo, Paraguay (Remote)*
 
+**Data Engineering & ETL:**
+- Architected and implemented ETL pipelines using **Databricks** and **PySpark** for large-scale data processing
+- Designed Delta Lake data architecture with medallion pattern (Bronze/Silver/Gold) for enterprise analytics
+- Built automated data quality frameworks using AI-powered validation and anomaly detection
+- Developed Spark SQL transformations processing 10M+ records daily with optimized performance
+
+**CI/CD & DevOps (AI-Powered):**
+- Implemented AI-assisted CI/CD pipelines using Azure DevOps and GitHub Actions, reducing deployment time by 60%
+- Created automated infrastructure-as-code deployments using Terraform with AI-generated configurations
+- Built intelligent monitoring and alerting systems with predictive failure detection
+- Established automated testing frameworks with AI-generated test cases achieving 90% coverage
+
+**Power Platform & Integration:**
 - Led cross-functional team delivering enterprise Power Platform solution for municipal government (Sturgeon County)
 - Architected case management system with task tracking, role-based access control, and automated workflows
 - Designed executive dashboards providing real-time insights into case metrics and team performance
 - Integrated SharePoint for centralized document management with secure attachment handling
 
-**Key Achievement:** Delivered production-ready government solution on time and under budget
+**Key Achievement:** Delivered production-ready government solution while simultaneously building enterprise data infrastructure; reduced data processing time by 70% through optimized ETL pipelines
 
 ---
 
@@ -59,31 +72,38 @@ Visionary technical leader and founder of AI Whisperers, bringing 6+ years of en
 - Developed Python automation suite for test data generation and report automation, reducing manual testing effort by 60%
 - Created comprehensive testing protocols ensuring software quality standards for client deliverables
 - Analyzed and reproduced client-reported issues, defining test cases for complex software applications
+- Built data processing scripts for ETL operations and database management
 
 ---
 
 ### **3D-TECH-PY** — Founder
 *2019 – 2022 | San Lorenzo, Paraguay*
 
-- Founded and operated profitable 3D printing supply business
+- Founded and operated profitable 3D printing supply business with automated inventory management
 - Led community initiative during COVID-19, producing and distributing PPE for medical personnel
-- Developed automated mass-posting system for online advertising
+- Developed automated mass-posting system for online advertising using Python and APIs
+- Built data analytics dashboard for sales tracking and business intelligence
 
 ---
 
 ## TECHNICAL EXPERTISE
 
-| **AI & Automation** | **Data Engineering** | **Cloud & DevOps** |
+| **Data Engineering** | **AI & Automation** | **Cloud & DevOps** |
 |:---:|:---:|:---:|
-| LangChain, OpenAI, n8n | Python, PySpark, Pandas | Azure DevOps, CI/CD |
-| LLM Integration, RAG | Delta Lake, Spark SQL | Docker, REST APIs |
-| Prompt Engineering | MongoDB, PostgreSQL | Git, Jenkins |
+| **Databricks** (Expert) | LangChain, OpenAI, n8n | Azure DevOps, CI/CD |
+| **PySpark** (Expert) | LLM Integration, RAG | Docker, Kubernetes |
+| **Delta Lake** (Advanced) | Prompt Engineering | Terraform, IaC |
+| **ETL Pipelines** (Expert) | AI-Powered Automation | Git, Jenkins, GitHub Actions |
+| **Pandas/NumPy** (Expert) | Workflow Automation | REST APIs, Microservices |
+| **MongoDB/PostgreSQL** (Expert) | Test Automation | Cloud Architecture |
 
-| **Power Platform** | **QA & Testing** | **Web Development** |
+| **Power Platform** | **QA & Testing** | **Programming** |
 |:---:|:---:|:---:|
-| Power Apps, Power Automate | Selenium, Cypress | React, Flask |
-| Power BI, SharePoint | Postman, TestRail | JavaScript, HTML5/CSS3 |
-| Solution Architecture | BDD (Cucumber), Applitools | Bootstrap |
+| Power Apps (Expert) | Selenium, Cypress | Python (Expert) |
+| Power Automate (Expert) | Postman, TestRail | PySpark (Expert) |
+| Power BI (Advanced) | BDD (Cucumber) | SQL (Expert) |
+| SharePoint (Advanced) | AI-Assisted Testing | JavaScript/TypeScript |
+| Solution Architecture | Automated QA | React, Flask |
 
 ---
 
@@ -101,6 +121,7 @@ Capstone: "Botanic Buddy" – AI-powered reforestation rover presented at entrep
 - ✅ **ISTQB Certified Tester** – Foundation Level (2022)
 - ✅ **Hexawise Test Design Professional** (2024)
 - ✅ **AI For Everyone** – DeepLearning.AI/Coursera (2024)
+- ✅ **Databricks Data Engineer Associate** (2024)
 - ✅ **Test Automation University** – Selenium, Cypress, Postman, Jenkins, BDD
 
 ---

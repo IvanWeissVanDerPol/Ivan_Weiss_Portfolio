@@ -1,7 +1,7 @@
 # KYRIAN WEISS VAN DER POL
 ## Technical Management | AI Automation Specialist
 
-**Location:** Paraguay | **Email:** kyrianweiss.vdp@gmail.com
+**Location:** San Lorenzo, Paraguay | **Email:** kyrianweiss.vdp@gmail.com
 
 ---
 

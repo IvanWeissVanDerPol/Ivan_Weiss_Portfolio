@@ -1,7 +1,7 @@
 # JONATHAN VERDUN
 ## Operations Manager | Business Process Optimization | Client Relations
 
-**Location:** Paraguay (Remote)  
+**Location:** San Lorenzo, Paraguay (Remote)
 **Email:** *Available upon request*  
 **LinkedIn:** *Available upon request*  
 
@@ -27,7 +27,7 @@ Operations backbone at AI Whisperers with expertise in business process optimiza
 ## PROFESSIONAL EXPERIENCE
 
 ### **Operations Manager**
-**AI Whisperers** | November 2025 – Present | Remote
+**AI Whisperers** | November 2025 – Present | San Lorenzo, Paraguay (Remote)
 
 Lead operational execution and business process management for AI consultancy serving enterprise clients.
 

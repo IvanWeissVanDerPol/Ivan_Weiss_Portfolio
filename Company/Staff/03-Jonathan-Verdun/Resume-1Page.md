@@ -1,7 +1,7 @@
 # JONATHAN VERDUN
 ## Operations Manager | Client Relations
 
-**Location:** Paraguay | **Email:** *Available upon request*
+**Location:** San Lorenzo, Paraguay | **Email:** *Available upon request*
 
 ---
 

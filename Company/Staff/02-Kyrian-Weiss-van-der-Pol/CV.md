@@ -1,7 +1,7 @@
 # KYRIAN WEISS VAN DER POL
 ## Technical Management | AI Systems Architect | n8n Automation Specialist
 
-**Location:** Paraguay (Remote)  
+**Location:** San Lorenzo, Paraguay (Remote)
 **Email:** kyrianweiss.vdp@gmail.com  
 **LinkedIn:** *Available upon request*  
 **GitHub:** *Available upon request*  
@@ -28,7 +28,7 @@ Rising technical leader and AI systems architect at AI Whisperers. At 18 years o
 ## PROFESSIONAL EXPERIENCE
 
 ### **Technical Management**
-**AI Whisperers** | November 2025 – Present | Remote
+**AI Whisperers** | November 2025 – Present | San Lorenzo, Paraguay (Remote)
 
 Lead technical operations and automation architecture for AI consultancy serving enterprise clients in energy and technology sectors.
 

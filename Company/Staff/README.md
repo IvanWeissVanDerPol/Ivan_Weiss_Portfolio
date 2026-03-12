@@ -192,7 +192,7 @@ For new team members or documentation updates:
 ## Contact Information
 
 **Organization:** AI Whisperers  
-**Location:** Paraguay (Remote operations worldwide)  
+**Location:** San Lorenzo, Paraguay (Remote operations worldwide)
 **General Phone:** +595 0985724135  
 **General Email:** kyrianweiss.vdp@gmail.com
 

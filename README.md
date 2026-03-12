@@ -4,7 +4,7 @@
 
 [![Website](https://img.shields.io/badge/Website-ai--whisperers.com-blue)](https://ai-whisperers.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/company/ai-whisperers)
-[![Location](https://img.shields.io/badge/Location-Paraguay-green)](https://en.wikipedia.org/wiki/Paraguay)
+[![Location](https://img.shields.io/badge/Location-San%20Lorenzo%2C%20Paraguay-green)](https://en.wikipedia.org/wiki/San_Lorenzo,_Paraguay)
 [![Founded](https://img.shields.io/badge/Founded-Nov%202025-orange)]()
 
 ---
@@ -194,7 +194,7 @@ We speak your language:
 ## 📞 Contact Us
 
 **Organization:** AI Whisperers  
-**Location:** Paraguay (Remote operations worldwide)  
+**Location:** San Lorenzo, Paraguay (Remote operations worldwide)
 **Phone:** +595 0985724135  
 **Email:** kyrianweiss.vdp@gmail.com
 

@@ -1,7 +1,7 @@
 # KYRIAN WEISS VAN DER POL
 ## Technical Management | n8n Automation Expert | AI Integration Specialist
 
-📍 Paraguay | 📱 +595 0985724135 | ✉️ kyrianweiss.vdp@gmail.com  
+📍 San Lorenzo, Paraguay | 📱 +595 0985724135 | ✉️ kyrianweiss.vdp@gmail.com
 🔗 linkedin.com/in/kyrianweissvdp | 💻 github.com/KyrianWeissVDP
 
 ---
@@ -17,7 +17,7 @@ Prodigious 18-year-old technical talent recognized as "wizard material" by senio
 ## PROFESSIONAL EXPERIENCE
 
 ### **AI WHISPERERS** — Technical Management
-*November 2025 – Present | Remote*
+*November 2025 – Present | San Lorenzo, Paraguay (Remote)*
 
 - Architect and implement enterprise-grade n8n automation workflows for international clients (Energy21/Eneve)
 - Design AI-powered ticket triage systems with intelligent routing, sentiment analysis, and automated responses

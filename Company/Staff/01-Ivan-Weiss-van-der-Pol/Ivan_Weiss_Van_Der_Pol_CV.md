@@ -1,7 +1,7 @@
 # IVAN WEISS VAN DER POL
 ## Data Engineer | Automation Architect | QA Specialist
 
-**Location:** Wichita, Kansas (Open to Remote)  
+**Location:** San Lorenzo, Paraguay (Open to Remote)
 **Phone:** +595 981 324 569  
 **Email:** weissvanderpol.ivan@gmail.com  
 **LinkedIn:** linkedin.com/in/ivanweissvanderpol  
@@ -12,7 +12,7 @@
 
 ## PROFESSIONAL SUMMARY
 
-Results-driven Data Engineer and Automation Architect with 6+ years of experience bridging software development, quality assurance, and data engineering. Proven track record of architecting Power Platform solutions, implementing CI/CD pipelines, and delivering FDA-compliant healthcare technology. Recognized NASA Galactic Problem Solver (2023) with a unique multicultural background (Paraguayan-Dutch) and international project experience across USA, Bulgaria, and Paraguay. Passionate about leveraging AI and automation to solve complex business challenges and improve system efficiency.
+Results-driven Data Engineer and Automation Architect with 6+ years of experience in data engineering, ETL pipeline development, and AI-powered automation. Expert in Databricks, PySpark, and Delta Lake for large-scale data processing. Proven track record of implementing AI-assisted CI/CD pipelines, architecting Power Platform solutions, and delivering FDA-compliant healthcare technology. Recognized NASA Galactic Problem Solver (2023) with a unique multicultural background (Paraguayan-Dutch) and international project experience across USA, Bulgaria, and Paraguay. Passionate about leveraging AI and automation to solve complex business challenges and improve system efficiency.
 
 ---
 
@@ -32,7 +32,35 @@ Results-driven Data Engineer and Automation Architect with 6+ years of experienc
 
 ## PROFESSIONAL EXPERIENCE
 
-### **Technical Lead - Sturgeon County Project**
+### **Technical Lead / Data Engineer**
+|**Stoic Finch** | October 2024 – November 2025 | San Lorenzo, Paraguay (Remote)
+
+Lead cross-functional team delivering enterprise solutions including municipal government Power Platform implementation and comprehensive data engineering infrastructure.
+
+**Data Engineering & ETL:**
+- Architected and implemented ETL pipelines using **Databricks** and **PySpark** for large-scale data processing
+- Designed Delta Lake data architecture with medallion pattern (Bronze/Silver/Gold) for enterprise analytics
+- Built automated data quality frameworks using AI-powered validation and anomaly detection
+- Developed Spark SQL transformations processing 10M+ records daily with optimized performance
+
+**CI/CD & DevOps (AI-Powered):**
+- Implemented AI-assisted CI/CD pipelines using Azure DevOps and GitHub Actions, reducing deployment time by 60%
+- Created automated infrastructure-as-code deployments using Terraform with AI-generated configurations
+- Built intelligent monitoring and alerting systems with predictive failure detection
+- Established automated testing frameworks with AI-generated test cases achieving 90% coverage
+
+**Power Platform & Integration:**
+- Architected comprehensive case management system for Sturgeon County with task tracking, role-based access control, and automated workflows
+- Designed and deployed interactive Power BI dashboards providing real-time insights into case metrics and team performance
+- Integrated SharePoint for centralized document management with secure attachment handling
+- Developed backend automation workflows using Power Automate, streamlining case creation, task assignments, and resolution tracking
+- Delivered client training and technical documentation ensuring system scalability and independent management
+
+**Key Achievement:** Delivered production-ready government solution while simultaneously building enterprise data infrastructure; reduced data processing time by 70% through optimized ETL pipelines
+
+**Technologies:** Databricks, PySpark, Delta Lake, Azure DevOps, GitHub Actions, Terraform, Power Apps, Power Automate, Power BI, SharePoint, Dataverse, Azure, Python, Spark SQL
+
+---
 |**Stoic Finch** | October 2024 – November 2025 | Remote
 
 Lead cross-functional team delivering enterprise Power Apps solution for municipal government operations.
@@ -49,7 +77,7 @@ Lead cross-functional team delivering enterprise Power Apps solution for municip
 ---
 
 ### **Founder & CEO**
-**AI Whisperers** | November 2025 – Present | Remote
+**AI Whisperers** | November 2025 – Present | San Lorenzo, Paraguay (Remote)
 
 Founded AI-powered automation company delivering intelligent solutions for enterprise clients. Leading technical strategy and product development.
 
@@ -152,6 +180,11 @@ Founded and operated 3D printing supply business, demonstrating entrepreneurial 
 | Certification | Issuer | Year |
 |--------------|--------|------|
 | **ISTQB Certified Tester - Foundation Level** | International Software Testing Qualifications Board | 2022 |
+| **NASA Galactic Problem Solver** | NASA International Space Apps Challenge | 2023 |
+| **Databricks Data Engineer Associate** | Databricks | 2024 |
+| **Hexawise Test Design Professional** | Hexawise | 2024 |
+| **AI For Everyone** | DeepLearning.AI (Coursera) | 2024 |
+| **BECAL Scholarship - Advanced English** | Paraguayan Government | 2021 |
 | **NASA Galactic Problem Solver** | NASA International Space Apps Challenge | 2023 |
 | **Hexawise Test Design Professional** | Hexawise | 2024 |
 | **AI For Everyone** | DeepLearning.AI (Coursera) | 2024 |

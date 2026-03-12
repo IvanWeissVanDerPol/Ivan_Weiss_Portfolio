@@ -1,7 +1,7 @@
 # JONATHAN VERDUN
 ## Operations Manager | Client Relations | Process Optimization Specialist
 
-📍 Paraguay | ✉️ Available upon request | 🔗 LinkedIn: Available upon request
+📍 San Lorenzo, Paraguay | ✉️ Available upon request | 🔗 LinkedIn: Available upon request
 
 ---
 
@@ -16,7 +16,7 @@ Strategic operations leader serving as right-hand to the CEO at AI Whisperers. E
 ## PROFESSIONAL EXPERIENCE
 
 ### **AI WHISPERERS** — Operations Manager
-*November 2025 – Present | Remote*
+*November 2025 – Present | San Lorenzo, Paraguay (Remote)*
 
 - Serve as trusted operational partner to CEO; function as organizational "right hand" for strategic and tactical execution
 - Manage day-to-day operations ensuring smooth delivery of AI consulting services to international clients

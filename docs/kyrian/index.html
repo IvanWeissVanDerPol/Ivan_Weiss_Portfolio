@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kyrian Weiss van der Pol | Technical Management & AI Automation</title>
+  <meta name="description" content="Technical Management at AI Whisperers. 18-year-old n8n automation expert and AI integration specialist. Building enterprise automation solutions.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: { primary: '#8b5cf6', secondary: '#ec4899', accent: '#06b6d4' }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+    .hero-gradient { background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%); }
+    .text-gradient { background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { transform: translateY(-8px); box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.25); }
+    .skill-pill { background: rgba(139, 92, 246, 0.1); color: #8b5cf6; transition: all 0.3s ease; }
+    .skill-pill:hover { background: #8b5cf6; color: white; transform: scale(1.05); }
+    .timeline-line { background: linear-gradient(180deg, #8b5cf6 0%, #ec4899 100%); }
+    .wizard-glow { box-shadow: 0 0 30px rgba(139, 92, 246, 0.5); }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <nav class="nav fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="#" class="text-xl font-bold text-gradient">Kyrian W. v.d. Pol</a>
+        <div class="hidden md:flex space-x-8">
+          <a href="#about" class="text-gray-600 hover:text-primary transition">About</a>
+          <a href="#experience" class="text-gray-600 hover:text-primary transition">Experience</a>
+          <a href="#skills" class="text-gray-600 hover:text-primary transition">Skills</a>
+          <a href="#projects" class="text-gray-600 hover:text-primary transition">Projects</a>
+          <a href="#contact" class="text-gray-600 hover:text-primary transition">Contact</a>
+        </div>
+        <a href="../" class="text-sm text-gray-500 hover:text-primary transition flex items-center gap-1">
+          <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Team
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero min-h-screen flex items-center relative overflow-hidden pt-16">
+    <div class="absolute inset-0 bg-gradient-to-br from-purple-50 via-white to-pink-50"></div>
+    <div class="particles absolute inset-0 pointer-events-none"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="hero-content">
+          <div class="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-6">
+            <i data-lucide="sparkles" class="w-4 h-4"></i>
+            "Wizard Material" Technical Talent
+          </div>
+          <h1 class="text-5xl md:text-7xl font-bold text-gray-900 leading-tight mb-6">
+            Kyrian Weiss van der <span class="text-gradient">Pol</span>
+          </h1>
+          <p class="text-xl md:text-2xl text-gray-600 mb-4">
+            Technical Management | AI Automation Specialist
+          </p>
+          <p class="text-gray-500 mb-8 max-w-lg">
+            At 18, architecting enterprise automation solutions for international clients. 
+            n8n expert and AI integration specialist with exceptional technical intuition.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="#contact" class="btn btn-primary" style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);">
+              <i data-lucide="mail" class="w-5 h-5"></i> Get in Touch
+            </a>
+            <a href="#projects" class="btn btn-secondary" style="border-color: rgba(139, 92, 246, 0.3);">
+              <i data-lucide="folder" class="w-5 h-5"></i> View Projects
+            </a>
+          </div>
+          <div class="flex gap-4 mt-8">
+            <a href="mailto:kyrianweiss.vdp@gmail.com" class="social-link" style="background: rgba(139, 92, 246, 0.1); color: #8b5cf6;">
+              <i data-lucide="mail" class="w-5 h-5"></i>
+            </a>
+            <span class="social-link cursor-pointer" style="background: rgba(139, 92, 246, 0.1); color: #8b5cf6;" title="San Lorenzo, Paraguay">
+              <i data-lucide="map-pin" class="w-5 h-5"></i>
+            </span>
+          </div>
+        </div>
+        <div class="hero-image flex justify-center">
+          <div class="relative">
+            <div class="w-80 h-80 rounded-full hero-gradient flex items-center justify-center text-white text-8xl font-bold shadow-2xl wizard-glow">
+              KW
+            </div>
+            <div class="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
+              <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
+                <i data-lucide="zap" class="w-6 h-6 text-purple-600"></i>
+              </div>
+              <div>
+                <div class="text-2xl font-bold text-gray-900">18</div>
+                <div class="text-sm text-gray-500">Years Old</div>
+              </div>
+            </div>
+            <div class="absolute -top-4 -left-4 bg-white rounded-2xl shadow-xl p-4">
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                <span class="text-sm font-medium text-gray-700">University Student (2026)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="text-center reveal">
+          <div class="text-4xl font-bold text-gradient mb-2">18</div>
+          <div class="text-gray-600">Years Old</div>
+        </div>
+        <div class="text-center reveal reveal-delay-1">
+          <div class="text-4xl font-bold text-gradient mb-2">Expert</div>
+          <div class="text-gray-600">n8n Automation</div>
+        </div>
+        <div class="text-center reveal reveal-delay-2">
+          <div class="text-4xl font-bold text-gradient mb-2">2026</div>
+          <div class="text-gray-600">University Started</div>
+        </div>
+        <div class="text-center reveal reveal-delay-3">
+          <div class="text-4xl font-bold text-gradient mb-2">Energy21</div>
+          <div class="text-gray-600">Enterprise Client</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-16 items-center">
+        <div class="reveal">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">About Me</h2>
+          <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+            I'm an 18-year-old technical prodigy recognized as <strong>"wizard material"</strong> by industry professionals. 
+            Currently pursuing university studies while leading technical management at AI Whisperers.
+          </p>
+          <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+            My expertise lies in <strong>n8n workflow automation</strong> and <strong>AI integration</strong> using LangChain and OpenAI. 
+            I architect enterprise automation solutions that process thousands of tickets and streamline complex business processes.
+          </p>
+          <p class="text-gray-600 text-lg leading-relaxed">
+            With exceptional technical intuition and rapid learning capability, I bring fresh perspectives 
+            and innovative solutions to every project. Fluent in Spanish, English, and Dutch.
+          </p>
+        </div>
+        <div class="space-y-4">
+          <div class="card card-hover reveal reveal-delay-1">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                <i data-lucide="zap" class="w-6 h-6 text-purple-600"></i>
+              </div>
+              <div>
+                <h3 class="font-semibold text-gray-900">"Wizard Material" Recognition</h3>
+                <p class="text-gray-600">Recognized by senior engineers for exceptional technical intuition and rapid learning velocity 3-5x typical junior engineers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-hover reveal reveal-delay-2">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                <i data-lucide="graduation-cap" class="w-6 h-6 text-pink-600"></i>
+              </div>
+              <div>
+                <h3 class="font-semibold text-gray-900">Education</h3>
+                <p class="text-gray-600">University Studies - Computer Science/Software Engineering (2026 - Present)</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-hover reveal reveal-delay-3">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                <i data-lucide="map-pin" class="w-6 h-6 text-cyan-600"></i>
+              </div>
+              <div>
+                <h3 class="font-semibold text-gray-900">Location</h3>
+                <p class="text-gray-600">San Lorenzo, Paraguay - Remote operations worldwide</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="py-24 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 reveal">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">Professional Experience</h2>
+        <p class="text-xl text-gray-600">Building enterprise automation solutions at 18</p>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 ml-8">
+            <div class="flex flex-wrap items-center gap-3 mb-3">
+              <span class="text-sm text-purple-600 font-semibold">Nov 2025 – Present</span>
+              <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-medium">Current</span>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900">Technical Management</h3>
+            <p class="text-purple-600 font-medium mb-3">AI Whisperers | Remote</p>
+            <ul class="space-y-2 text-gray-600">
+              <li class="flex items-start gap-2">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i>
+                <span>Architect <strong>n8n workflow automation</strong> for enterprise clients (Energy21)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i>
+                <span>Design technical proposals and system architectures</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i>
+                <span>Implement <strong>AI/LLM integrations</strong> using LangChain and OpenAI</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i>
+                <span>Create comprehensive technical documentation</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 reveal">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">Technical Skills</h2>
+        <p class="text-xl text-gray-600">Expertise in automation and AI integration</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="card card-hover reveal">
+          <div class="w-14 h-14 bg-purple-100 rounded-2xl flex items-center justify-center mb-4">
+            <i data-lucide="workflow" class="w-7 h-7 text-purple-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Automation</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">n8n</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Process Automation</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Workflow Design</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Power Automate</span>
+          </div>
+        </div>
+
+        <div class="card card-hover reveal reveal-delay-1">
+          <div class="w-14 h-14 bg-pink-100 rounded-2xl flex items-center justify-center mb-4">
+            <i data-lucide="brain" class="w-7 h-7 text-pink-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">AI/ML</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">LangChain</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">OpenAI API</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">LLM Integration</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Prompt Engineering</span>
+          </div>
+        </div>
+
+        <div class="card card-hover reveal reveal-delay-2">
+          <div class="w-14 h-14 bg-cyan-100 rounded-2xl flex items-center justify-center mb-4">
+            <i data-lucide="code" class="w-7 h-7 text-cyan-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Development</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Python</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">JavaScript</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">REST APIs</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">JSON</span>
+          </div>
+        </div>
+
+        <div class="card card-hover reveal">
+          <div class="w-14 h-14 bg-indigo-100 rounded-2xl flex items-center justify-center mb-4">
+            <i data-lucide="file-text" class="w-7 h-7 text-indigo-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Business</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Technical Writing</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Proposal Development</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Client Communication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 reveal">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">Key Projects</h2>
+        <p class="text-xl text-gray-600">Enterprise automation solutions I've architected</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="card card-hover reveal">
+          <div class="w-14 h-14 bg-purple-100 rounded-2xl flex items-center justify-center mb-4">
+            <i data-lucide="ticket" class="w-7 h-7 text-purple-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Energy21 Ticket Triage</h3>
+          <p class="text-purple-600 font-medium mb-3">n8n Automation System</p>
+          <p class="text-gray-600 mb-4">Designed comprehensive n8n automation system for energy sector ticket management with AI-powered routing and classification.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">n8n</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">AI Routing</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Energy Sector</span>
+          </div>
+        </div>
+
+        <div class="card card-hover reveal reveal-delay-1">
+          <div class="w-14 h-14 bg-pink-100 rounded-2xl flex items-center justify-center mb-4">
+            <i data-lucide="building-2" class="w-7 h-7 text-pink-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Solstein Platform</h3>
+          <p class="text-pink-600 font-medium mb-3">B2B SaaS Automation</p>
+          <p class="text-gray-600 mb-4">Contributed to B2B SaaS automation platform architecture and workflow implementation for enterprise clients.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">SaaS</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Automation</span>
+            <span class="skill-pill px-3 py-1 rounded-full text-sm font-medium">Architecture</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-24 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="reveal">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">Let's Connect</h2>
+        <p class="text-xl text-gray-600 mb-8">
+          Interested in automation solutions or want to discuss AI integration? 
+          I'm always excited to collaborate.
+        </p>
+        
+        <div class="flex flex-wrap justify-center gap-4 mb-12">
+          <a href="mailto:kyrianweiss.vdp@gmail.com" class="btn btn-primary" style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+            kyrianweiss.vdp@gmail.com
+          </a>
+          <a href="tel:+595985724135" class="btn btn-secondary" style="border-color: rgba(139, 92, 246, 0.3);">
+            <i data-lucide="phone" class="w-5 h-5"></i>
+            +595 985 724 135
+          </a>
+        </div>
+
+        <div class="p-6 bg-white rounded-2xl inline-block shadow-lg">
+          <div class="flex items-center gap-2 text-gray-600">
+            <i data-lucide="map-pin" class="w-5 h-5 text-purple-600"></i>
+            <span>San Lorenzo, Paraguay</span>
+            <span class="mx-2">•</span>
+            <span>Remote Worldwide</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
+    <div class="footer-content">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title" style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Kyrian Weiss van der Pol</h3>
+          <p class="text-gray-400 mb-4">Technical Management | AI Automation Specialist</p>
+          <p class="text-gray-500 text-sm">AI Whisperers - "Wizard Material"</p>
+        </div>
+        <div>
+          <h3 class="footer-title" style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title" style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Connect</h3>
+          <ul class="footer-links">
+            <li><a href="mailto:kyrianweiss.vdp@gmail.com">Email</a></li>
+            <li><a href="tel:+595985724135">Phone</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title" style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">AI Whisperers</h3>
+          <ul class="footer-links">
+            <li><a href="../">Team Page</a></li>
+            <li><a href="../ivan/">Ivan's Portfolio</a></li>
+            <li><a href="../jonathan/">Jonathan's Portfolio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Kyrian Weiss van der Pol. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/animations.js"></script>
+  <script>
+    lucide.createIcons();
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.from('.hero-content > *', { y: 50, opacity: 0, duration: 1, stagger: 0.15, ease: 'power3.out' });
+    gsap.from('.hero-image', { x: 50, opacity: 0, duration: 1.2, delay: 0.3, ease: 'power3.out' });
+  </script>
+</body>
+</html>

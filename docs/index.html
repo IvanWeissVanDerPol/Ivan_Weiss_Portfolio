@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Whisperers | Enterprise AI Automation & Consulting Team</title>
+  <meta name="description" content="AI Whisperers - Enterprise AI automation consultancy. Meet our team of experts: Ivan Weiss van der Pol (Data Engineer), Kyrian Weiss van der Pol (Automation Specialist), and Jonathan Verdun (Operations Manager).">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: {
+            primary: '#667eea',
+            secondary: '#764ba2',
+            accent: '#4facfe'
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+    .gradient-hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); }
+    .text-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .card-team { transition: all 0.4s ease; }
+    .card-team:hover { transform: translateY(-10px) scale(1.02); }
+    .ivan-card:hover { box-shadow: 0 25px 50px -12px rgba(102, 126, 234, 0.4); }
+    .kyrian-card:hover { box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.4); }
+    .jonathan-card:hover { box-shadow: 0 25px 50px -12px rgba(16, 185, 129, 0.4); }
+    .service-card { transition: all 0.3s ease; }
+    .service-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
+    .particles { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+    .particle { position: absolute; width: 4px; height: 4px; background: rgba(255, 255, 255, 0.3); border-radius: 50%; animation: float 15s infinite ease-in-out; }
+    @keyframes float { 0%, 100% { transform: translateY(0) translateX(0); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateY(-100vh) translateX(50px); opacity: 0; } }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <!-- Hero Section -->
+  <section class="min-h-screen gradient-hero flex items-center justify-center relative overflow-hidden">
+    <div class="particles"></div>
+    <div class="absolute inset-0 bg-black/20"></div>
+    
+    <div class="relative z-10 text-center text-white px-4 max-w-5xl mx-auto">
+      <div class="hero-content">
+        <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium mb-8">
+          <i data-lucide="sparkles" class="w-4 h-4"></i>
+          Enterprise AI Automation & Consulting
+        </div>
+        <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
+          AI <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-pink-300">Whisperers</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">
+          Automate the boring, simplify the complex, and make tech feel human.
+        </p>
+        <p class="text-lg text-white/70 mb-12 max-w-2xl mx-auto">
+          A team of experts helping enterprises harness the power of AI and workflow automation.
+          Based in San Lorenzo, Paraguay — operating worldwide.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="#team" class="px-8 py-4 bg-white text-indigo-600 rounded-full font-semibold hover:bg-gray-100 transition shadow-lg">
+            Meet the Team
+          </a>
+          <a href="#services" class="px-8 py-4 bg-white/20 backdrop-blur-sm text-white border border-white/30 rounded-full font-semibold hover:bg-white/30 transition">
+            Our Services
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <i data-lucide="chevron-down" class="w-8 h-8 text-white/70"></i>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">What We Do</h2>
+        <p class="text-xl text-gray-600">Comprehensive AI and automation services for enterprise clients</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="service-card bg-gray-50 rounded-3xl p-8 text-center">
+          <div class="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <i data-lucide="brain" class="w-8 h-8 text-indigo-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">AI Consulting</h3>
+          <ul class="text-gray-600 space-y-2">
+            <li>LLM Strategy & Implementation</li>
+            <li>AI Integration Architecture</li>
+            <li>Prompt Engineering</li>
+            <li>RAG Systems</li>
+          </ul>
+        </div>
+        
+        <div class="service-card bg-gray-50 rounded-3xl p-8 text-center">
+          <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <i data-lucide="workflow" class="w-8 h-8 text-purple-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Automation</h3>
+          <ul class="text-gray-600 space-y-2">
+            <li>n8n Workflow Design</li>
+            <li>Process Automation</li>
+            <li>Power Platform Solutions</li>
+            <li>Custom Integration Tools</li>
+          </ul>
+        </div>
+        
+        <div class="service-card bg-gray-50 rounded-3xl p-8 text-center">
+          <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <i data-lucide="database" class="w-8 h-8 text-blue-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Data Engineering</h3>
+          <ul class="text-gray-600 space-y-2">
+            <li>Databricks & PySpark</li>
+            <li>ETL Pipeline Architecture</li>
+            <li>Delta Lake Implementation</li>
+            <li>Data Warehousing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
+        <p class="text-xl text-gray-600">Three experts, one mission: transforming businesses through AI</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Ivan -->
+        <a href="./ivan/" class="card-team ivan-card bg-white rounded-3xl overflow-hidden shadow-lg block">
+          <div class="h-32 bg-gradient-to-r from-indigo-500 to-purple-600"></div>
+          <div class="px-8 pb-8">
+            <div class="w-24 h-24 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold -mt-12 border-4 border-white shadow-lg mx-auto">
+              IW
+            </div>
+            <div class="text-center mt-4">
+              <h3 class="text-xl font-bold text-gray-900">Ivan Weiss van der Pol</h3>
+              <p class="text-indigo-600 font-medium">Founder & CEO</p>
+              <p class="text-gray-500 text-sm mt-2">Data Engineer | Automation Architect | QA Specialist</p>
+              <div class="flex flex-wrap justify-center gap-2 mt-4">
+                <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs">Databricks</span>
+                <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs">PySpark</span>
+                <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs">NASA Recognized</span>
+              </div>
+              <div class="mt-6 text-indigo-600 font-medium flex items-center justify-center gap-2">
+                View Portfolio <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Kyrian -->
+        <a href="./kyrian/" class="card-team kyrian-card bg-white rounded-3xl overflow-hidden shadow-lg block">
+          <div class="h-32 bg-gradient-to-r from-purple-500 to-pink-600"></div>
+          <div class="px-8 pb-8">
+            <div class="w-24 h-24 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-white text-2xl font-bold -mt-12 border-4 border-white shadow-lg mx-auto">
+              KW
+            </div>
+            <div class="text-center mt-4">
+              <h3 class="text-xl font-bold text-gray-900">Kyrian Weiss van der Pol</h3>
+              <p class="text-purple-600 font-medium">Technical Management</p>
+              <p class="text-gray-500 text-sm mt-2">n8n Expert | AI Integration | "Wizard Material"</p>
+              <div class="flex flex-wrap justify-center gap-2 mt-4">
+                <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-xs">n8n</span>
+                <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-xs">LangChain</span>
+                <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-xs">18 Years Old</span>
+              </div>
+              <div class="mt-6 text-purple-600 font-medium flex items-center justify-center gap-2">
+                View Portfolio <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Jonathan -->
+        <a href="./jonathan/" class="card-team jonathan-card bg-white rounded-3xl overflow-hidden shadow-lg block">
+          <div class="h-32 bg-gradient-to-r from-emerald-500 to-amber-500"></div>
+          <div class="px-8 pb-8">
+            <div class="w-24 h-24 bg-gradient-to-br from-emerald-500 to-amber-500 rounded-full flex items-center justify-center text-white text-2xl font-bold -mt-12 border-4 border-white shadow-lg mx-auto">
+              JV
+            </div>
+            <div class="text-center mt-4">
+              <h3 class="text-xl font-bold text-gray-900">Jonathan Verdun</h3>
+              <p class="text-emerald-600 font-medium">Operations Manager</p>
+              <p class="text-gray-500 text-sm mt-2">Process Optimization | Client Relations | CEO's Right Hand</p>
+              <div class="flex flex-wrap justify-center gap-2 mt-4">
+                <span class="px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-xs">Operations</span>
+                <span class="px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-xs">Client Relations</span>
+                <span class="px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-xs">Logistics</span>
+              </div>
+              <div class="mt-6 text-emerald-600 font-medium flex items-center justify-center gap-2">
+                View Portfolio <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="text-5xl font-bold text-gradient mb-2">6+</div>
+          <div class="text-gray-600">Combined Years Experience</div>
+        </div>
+        <div class="text-center">
+          <div class="text-5xl font-bold text-gradient mb-2">3</div>
+          <div class="text-gray-600">Expert Team Members</div>
+        </div>
+        <div class="text-center">
+          <div class="text-5xl font-bold text-gradient mb-2">10M+</div>
+          <div class="text-gray-600">Records Processed Daily</div>
+        </div>
+        <div class="text-center">
+          <div class="text-5xl font-bold text-gradient mb-2">60%</div>
+          <div class="text-gray-600">Avg. Efficiency Gain</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+  <section class="py-24 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-medium mb-6">
+        <i data-lucide="map-pin" class="w-4 h-4"></i>
+        San Lorenzo, Paraguay
+      </div>
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">Remote-First, Global Reach</h2>
+      <p class="text-xl text-gray-600 mb-8">
+        Based in San Lorenzo, Paraguay, we serve enterprise clients worldwide. 
+        Our remote-first approach allows us to deliver exceptional value regardless of location.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <div class="flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm">
+          <i data-lucide="globe" class="w-5 h-5 text-indigo-600"></i>
+          <span class="text-gray-700">International Clients</span>
+        </div>
+        <div class="flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm">
+          <i data-lucide="languages" class="w-5 h-5 text-indigo-600"></i>
+          <span class="text-gray-700">Spanish / English / Dutch</span>
+        </div>
+        <div class="flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm">
+          <i data-lucide="clock" class="w-5 h-5 text-indigo-600"></i>
+          <span class="text-gray-700">Flexible Timezones</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">Ready to Transform Your Business?</h2>
+      <p class="text-xl text-gray-600 mb-8">
+        Let's discuss how AI Whisperers can help automate your workflows and drive business value.
+      </p>
+      
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="mailto:kyrianweiss.vdp@gmail.com" class="px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition flex items-center gap-2">
+          <i data-lucide="mail" class="w-5 h-5"></i>
+          kyrianweiss.vdp@gmail.com
+        </a>
+        <a href="tel:+595985724135" class="px-8 py-4 bg-gray-100 text-gray-700 rounded-full font-semibold hover:bg-gray-200 transition flex items-center gap-2">
+          <i data-lucide="phone" class="w-5 h-5"></i>
+          +595 985 724 135
+        </a>
+      </div>
+      
+      <div class="mt-12 flex justify-center gap-6">
+        <a href="https://linkedin.com/in/ivanweissvanderpol" target="_blank" class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 hover:bg-indigo-100 hover:text-indigo-600 transition">
+          <i data-lucide="linkedin" class="w-5 h-5"></i>
+        </a>
+        <a href="https://github.com/IvanWeissVanDerPol" target="_blank" class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 hover:bg-indigo-100 hover:text-indigo-600 transition">
+          <i data-lucide="github" class="w-5 h-5"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="text-2xl font-bold mb-4 text-gradient">AI Whisperers</h3>
+          <p class="text-gray-400">Enterprise AI Automation & Consulting</p>
+          <p class="text-gray-500 text-sm mt-2">San Lorenzo, Paraguay</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Team</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="./ivan/" class="hover:text-white transition">Ivan Weiss van der Pol</a></li>
+            <li><a href="./kyrian/" class="hover:text-white transition">Kyrian Weiss van der Pol</a></li>
+            <li><a href="./jonathan/" class="hover:text-white transition">Jonathan Verdun</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Services</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li>AI Consulting</li>
+            <li>Workflow Automation</li>
+            <li>Data Engineering</li>
+            <li>Enterprise Integration</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Contact</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li>kyrianweiss.vdp@gmail.com</li>
+            <li>+595 985 724 135</li>
+            <li>San Lorenzo, Paraguay</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-center text-gray-500">
+        <p>&copy; 2026 AI Whisperers. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+    
+    // Create particles
+    const particlesContainer = document.querySelector('.particles');
+    for (let i = 0; i < 50; i++) {
+      const particle = document.createElement('div');
+      particle.className = 'particle';
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.top = Math.random() * 100 + '%';
+      particle.style.animationDelay = Math.random() * 15 + 's';
+      particle.style.animationDuration = (10 + Math.random() * 20) + 's';
+      particlesContainer.appendChild(particle);
+    }
+    
+    // GSAP Hero Animation
+    gsap.from('.hero-content > *', {
+      y: 50,
+      opacity: 0,
+      duration: 1,
+      stagger: 0.15,
+      ease: 'power3.out'
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+IVAN WEISS VAN DER POL
+================================================================================
+
+Senior Software Engineer | Data Engineer | AI Specialist
+--------------------------------------------------------------------------------
+Asunción, Paraguay | +595 991 615 195 | ivanweissvanderpol@gmail.com
+linkedin.com/in/ivanweissvanderpol | github.com/IvanWeissVanDerPol
+
+PROFESSIONAL SUMMARY
+================================================================================
+Results-driven Software Engineer with 5+ years experience building production-
+ready applications, data pipelines, and AI systems. Expert in Python, FastAPI,
+Docker, and cloud infrastructure. Proven track record delivering geospatial
+monitoring APIs, AI transcription systems, and enterprise data platforms.
+Maintainer of 6-star open-source educational repository. Fluent in 4 languages.
+
+TECHNICAL SKILLS
+================================================================================
+Languages:     Python (Expert), TypeScript, JavaScript, SQL, Bash
+Backend:       FastAPI, Django, Flask, REST APIs, GraphQL, Microservices
+Data:          Databricks, Azure Data Factory, ETL, PostgreSQL, Redis, PostGIS
+AI/ML:         OpenAI API, Whisper, LangChain, scikit-learn, NLP
+DevOps:        Docker, Kubernetes, GitHub Actions, CI/CD, AWS (EC2, S3, RDS)
+Frontend:      React, Astro, Next.js, Tailwind CSS
+Testing:       pytest, Selenium, Playwright, TDD, QA Automation
+Platforms:     Azure, Power Platform, GitHub, Jupyter, Linux
+
+PROFESSIONAL EXPERIENCE
+================================================================================
+
+Data Engineer & Power Platform Developer          Jan 2022 – Present
+Keyera Corp | Calgary, AB, Canada
+• Architect enterprise ETL pipelines using Databricks and Azure Data Factory
+• Develop 50+ Power Apps solutions automating operations and maintenance workflows
+• Create Power BI dashboards for real-time infrastructure monitoring
+• Implement automated testing frameworks achieving 95%+ data quality scores
+• Optimize data workflows reducing pipeline runtime by 40%
+
+Software Engineer & AI Specialist                 Jan 2022 – Present
+Freelance / Self-Employed | Asunción, Paraguay
+• Built DeforestationTracker: Production FastAPI API with Docker, Redis caching,
+  CI/CD pipelines serving geospatial environmental data for Paraguay
+• Developed AI transcription system using OpenAI Whisper with 95%+ accuracy
+• Created APA 7 document converter achieving 98% formatting compliance
+• Architected automated marketplace systems reducing manual workload by 60%
+
+QA Automation Specialist & Technical Trainer      Jan 2025 – Present
+FPUNA - Universidad Nacional de Asunción | Asunción, Paraguay
+• Develop "Introduction to QA and QA Automation" curriculum (6 GitHub stars)
+• Train 50+ students in pytest, Selenium, API testing, and CI/CD integration
+• Establish TDD, BDD practices and test coverage requirements
+
+FEATURED PROJECTS
+================================================================================
+
+DeforestationTracker                        github.com/IvanWeissVanDerPol/DeforstationTracker
+• Production geospatial monitoring API with FastAPI, Docker, Redis, PostGIS
+• Clean Architecture implementation with 85%+ test coverage
+• GitHub Actions CI/CD with automated testing and deployment
+
+Psychology Transcription System             github.com/IvanWeissVanDerPol/psycology
+• AI-powered WhatsApp voice transcription using OpenAI Whisper
+• CLI interface with Click framework and YAML configuration
+• Parallel processing for batch audio conversion with 95%+ accuracy
+
+Introduction to QA Automation               github.com/IvanWeissVanDerPol/Introduction-to-QA-and-QA-Automation-Beginner-to-Expert
+• Open-source educational repository with 6 GitHub stars
+• Comprehensive curriculum: pytest, Selenium, Playwright, CI/CD
+• Used in university curriculum for software testing education
+
+EDUCATION & CERTIFICATIONS
+================================================================================
+
+BS Computer Science, Universidad Nacional de Asunción (FPUNA) | 2018-2022
+• Academic Excellence Scholarship, Dean's List
+
+Certifications:
+• Microsoft Certified: Azure Data Engineer Associate
+• AWS Certified Cloud Practitioner
+• Python for Data Engineering (DataCamp)
+
+LANGUAGES: Spanish (Native), English (Fluent), French (Fluent), German (Fluent)
+
+================================================================================
+Full CV and portfolio: github.com/IvanWeissVanDerPol | ivanweissvanderpol.github.io

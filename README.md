@@ -101,10 +101,7 @@ AI Whisperers is an AI-powered automation consultancy helping enterprises harnes
 | **Full CV** | Complete curriculum vitae | [`CV.md`](./Company/Staff/02-Kyrian-Weiss-van-der-Pol/CV.md) |
 | **1-Page Resume** | Professional summary | [`Resume-1Page.md`](./Company/Staff/02-Kyrian-Weiss-van-der-Pol/Resume-1Page.md) |
 | **Profile** | Company profile & role details | [`Profile.md`](./Company/Staff/02-Kyrian-Weiss-van-der-Pol/Profile.md) |
-
-**Quick Info:**
-| **1-Page Resume** | Professional summary | [`Resume-1Page.md`](./Company/Staff/02-Kyrian-Weiss-van-der-Pol/Resume-1Page.md) |
-| **Profile** | Company profile & role details | [`Profile.md`](./Company/Staff/02-Kyrian-Weiss-van-der-Pol/Profile.md) |
+| **Analysis** | Comprehensive competency analysis | [`Analysis.md`](./Company/Staff/02-Kyrian-Weiss-van-der-Pol/Analysis.md) |
 
 **Quick Info:**
 - 📧 kyrianweiss.vdp@gmail.com
@@ -121,10 +118,7 @@ AI Whisperers is an AI-powered automation consultancy helping enterprises harnes
 | **Full CV** | Complete curriculum vitae | [`CV.md`](./Company/Staff/03-Jonathan-Verdun/CV.md) |
 | **1-Page Resume** | Professional summary | [`Resume-1Page.md`](./Company/Staff/03-Jonathan-Verdun/Resume-1Page.md) |
 | **Profile** | Company profile & role details | [`Profile.md`](./Company/Staff/03-Jonathan-Verdun/Profile.md) |
-
-**Quick Info:**
-| **1-Page Resume** | Professional summary | [`Resume-1Page.md`](./Company/Staff/03-Jonathan-Verdun/Resume-1Page.md) |
-| **Profile** | Company profile & role details | [`Profile.md`](./Company/Staff/03-Jonathan-Verdun/Profile.md) |
+| **Analysis** | Comprehensive competency analysis | [`Analysis.md`](./Company/Staff/03-Jonathan-Verdun/Analysis.md) |
 
 **Quick Info:**
 - 🎯 Operations & process optimization specialist
@@ -265,7 +259,19 @@ For new team members or documentation:
 
 - [Skills Inventory](./Company/Staff/analysis/Skills-Inventory.md) - Complete team skills catalog
 - [Team Structure](./Company/Staff/analysis/Team-Structure.md) - Organizational details
-- [Staff README](./Company/Staff/README.md) - Internal staff documentation
+- [Staff README](./Company/Staff/README.md) - Internal staff documentation with comprehensive analysis links
+
+### Comprehensive Team Analyses
+
+In-depth competency analyses (1,979+ lines total):
+
+| Team Member | Analysis Length | Key Insights |
+|-------------|-----------------|--------------|
+| **Ivan Weiss van der Pol** | 380 lines | Executive technical leader, NASA recognition, path to CTO/Founder |
+| **Kyrian Weiss van der Pol** | 748 lines | "Wizard material" talent, 18-year-old prodigy, path to CTO |
+| **Jonathan Verdun** | 851 lines | Operations backbone, CEO's right hand, path to COO |
+
+[View All Analyses →](./Company/Staff/)
 
 ---
 
